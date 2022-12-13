@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61185" started-at="2022-11-17T23:26:45 EST" finished-at="2022-11-17T23:27:47 EST">
+  <suite name="Suite" duration-ms="75923" started-at="2022-11-28T21:42:54 EST" finished-at="2022-11-28T21:44:10 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61185" started-at="2022-11-17T23:26:45 EST" finished-at="2022-11-17T23:27:47 EST">
-      <class name="startingPointOfFramework.TC001_CreatLead">
-        <test-method status="PASS" signature="creatLead()[pri:0, instance:startingPointOfFramework.TC001_CreatLead@1f7030a6]" name="creatLead" duration-ms="61137" started-at="2022-11-17T23:26:46 EST" finished-at="2022-11-17T23:27:47 EST">
+    <test name="Test" duration-ms="75923" started-at="2022-11-28T21:42:54 EST" finished-at="2022-11-28T21:44:10 EST">
+      <class name="sequentialParallelTestNG.EditLead">
+        <test-method status="PASS" signature="editLead()[pri:0, instance:sequentialParallelTestNG.EditLead@1f7030a6]" name="editLead" duration-ms="19343" started-at="2022-11-28T21:42:54 EST" finished-at="2022-11-28T21:43:13 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- creatLead -->
-      </class> <!-- startingPointOfFramework.TC001_CreatLead -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- editLead -->
+      </class> <!-- sequentialParallelTestNG.EditLead -->
+      <class name="sequentialParallelTestNG.DeleteLead">
+        <test-method status="PASS" signature="deleteLead()[pri:0, instance:sequentialParallelTestNG.DeleteLead@396f6598]" name="deleteLead" duration-ms="15651" started-at="2022-11-28T21:43:54 EST" finished-at="2022-11-28T21:44:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+      </class> <!-- sequentialParallelTestNG.DeleteLead -->
+      <class name="sequentialParallelTestNG.CreateLead">
+        <test-method status="PASS" signature="createLead()[pri:0, instance:sequentialParallelTestNG.CreateLead@5a1c0542]" name="createLead" duration-ms="40868" started-at="2022-11-28T21:43:13 EST" finished-at="2022-11-28T21:43:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+      </class> <!-- sequentialParallelTestNG.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
